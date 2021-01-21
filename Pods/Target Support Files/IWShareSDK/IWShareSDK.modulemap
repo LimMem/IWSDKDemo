@@ -1,0 +1,6 @@
+framework module IWShareSDK {
+  umbrella header "IWShareSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

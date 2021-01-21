@@ -1,0 +1,1945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74EE83670ABC31CDD77B49DA732104E8 /* Build configuration list for PBXAggregateTarget "LookinServer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LookinServer;
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5DF5FCB75AA399DC6104AFA344B74298 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0289C7B68827BCD72F18295386D79007 /* IWUIShareHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F66B821F4A5184349BDC3F4DC739B4 /* IWUIShareHeaderView.m */; };
+		0680B3DF300181824DE3898AC8163961 /* Pods-iOS SDK DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD779907D90C8B439553FA673F6F655 /* Pods-iOS SDK DemoTests-dummy.m */; };
+		0C575665393C42A4EBAF4CA4C0A526D4 /* IWUIShareFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425A238F3289FC4CC9C6DB9A4493CEBE /* IWUIShareFooterView.m */; };
+		0EB4CEB581BA18B2511ABE4170B02EB1 /* IWQQSharePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBFC98A242B4E145EC180CB0230C197 /* IWQQSharePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104D7B1B987568E2D0EEFCFD131F5FB4 /* IWWxPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 867DB29F01832B720705A477B64FA1AC /* IWWxPlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		158E0E89B9BFB15FAC8C518E22C5E18B /* WXImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E41CAF5136CAA512739E77087E43A78 /* WXImages.xcassets */; };
+		15A12A62264449D64978F0626ECCFEC7 /* IWWxPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B46C754F9EA570B743CB350B2BA2B740 /* IWWxPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195DC3E5EDB4DD7D41DA9C22F351EDB1 /* IWDTPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9860180D4FEC5983680FDBE782C7E /* IWDTPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CD4DD2314859F7EDCF6FF97643A28A /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5BCD9797A9BA0665195A0E28721C39 /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E92D64A58A6548D642A5AFB9E20F22E /* DTOpenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F86D431DA2635A587CA08C76C859B41F /* DTOpenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37767D132ACC0FF20868CD301F464348 /* IWShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F60529D05E590A423ECE462CFD7293 /* IWShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B5E89BFD071E1C542A5DE8F1938E55 /* IWQQShareApiHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E114E4D07BF75C6459028F01D29AC96 /* IWQQShareApiHandle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3EFC9A449D37FD9E84AD8802F19C92CC /* IWWxShareApiHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C74DC8D6D5A2E7A925A9EE19A7D511 /* IWWxShareApiHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4348A880FA04650BCC4F668782125FCE /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D6567AE4FB237E7B2CC9B54679A3294C /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451B11D126A0760C63302273024FE909 /* IWWxTimelinePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAE679D567CA379F8F6955B2F245908 /* IWWxTimelinePlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		486AE606A0469B64861723501B21279D /* Pods-iOS SDK DemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8FBD85BDCAFB5BAA062AADC485DE1A8 /* Pods-iOS SDK DemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3EF79A0F95594707C081597CE35A2B /* IWShare.m in Sources */ = {isa = PBXBuildFile; fileRef = E092396D7148A27788040A73EEA89DF6 /* IWShare.m */; };
+		4EEC793E2DED11978A4E09EAD63316AC /* IWWxFavoritePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1AA9C9DE18C931569E10F2D3EA9C6D /* IWWxFavoritePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5519423EAF720A1D1CB748431C88DD0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		59764B3F77693513EDD2586F173ABB60 /* IWUIShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9813223622ED4DDE7F5B130906105 /* IWUIShareView.m */; };
+		597814A4987D04F87E792252B5185A4B /* IWQQZoneSharePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C37C3F213480650902C74F38C2328615 /* IWQQZoneSharePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C88AB52A5666D4BC62E62AC9B677461 /* IWShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1F135FBAFFF4FA40547AE6BA4EC77 /* IWShareTool.m */; };
+		5F01FEAD6D7AA73A41BA2D0F43D18AAE /* DTOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 403E1130F30D08B53A6CF13C10640335 /* DTOpenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6BC8D29A079821998D8A5A58C1D96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6715C45AB81FF3314E200D32F07E2F74 /* IWShareTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C1937E3E7D613409A5B98BF01E85EAE6 /* IWShareTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6746E2B232A238BBC9F09E974AAF106A /* IWQQSharePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B79A8A7B4B6F7CBC7D840C81A9BBDAB4 /* IWQQSharePlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		683860D80C8FA29A334356B764F11DC5 /* IWWxTimelinePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACA0D8D5F3AC2E18321240AF1180D20 /* IWWxTimelinePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7B1F3FE341F2901A454471EE44125A /* IWShareCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542153BCF84F14781831444DC14E41B /* IWShareCoordinator.m */; };
+		6D4F9520067A8FDB51D4F6FEEAAF2284 /* IWShareBasePlateform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3294A706FE043075E791138CB807CF97 /* IWShareBasePlateform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82FE3A56C20C9368656EF2A4368A258F /* IWUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A4DD40935BB4A11554BCC2DC9F4661 /* IWUICollectionViewCell.m */; };
+		831DAD0DFDFCC2EA30F5F9CDF6F87D12 /* IWShareBasePlateform.m in Sources */ = {isa = PBXBuildFile; fileRef = B6749F1F8B890C51460AD87BC092BD01 /* IWShareBasePlateform.m */; };
+		88A3A796031D0FAB5D0817CC719CAE8E /* DTOpenAPIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0178EA7B8F2EDB3E12DCD8681737D40F /* DTOpenAPIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893FAE40F77D5CBC941B693170D2416A /* IWWxFavoritePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A709D7CF5D7F874360BC309DDAC2AE /* IWWxFavoritePlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A07F86FA32BB64D392E460AB30D77C6 /* QQImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D201D9BAEAFABBBE149560E6D5759CA4 /* QQImages.xcassets */; };
+		93B2D34214DCA0E249FCA37A7DA1E2ED /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 09122CE12099A160AAD25FC4D3D92E73 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FBAA20F5A3ADFD49977E8D64EE194D /* IWUIShareFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB28691FC333230E7240D3B8D5140FDC /* IWUIShareFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976E9D4803DB5C96893F652EC224FA5C /* IWUIShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8905DCB05E516D67C4EBE40650E67DCD /* IWUIShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99598E934A5D5EEC3FD60C897DFCE285 /* IWUICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 171991BA2EBA4002E9C3133193687075 /* IWUICollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD26AB0E6CD4BD44DA0457147AE7906 /* IWQQFriendsPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7D78FC0831DDCECE4FC70F1D3BB7F7 /* IWQQFriendsPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00CC875AC65A50CDB2D698A764CBF64 /* IWShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 892152586DCF5582BD81824E6E6D54D9 /* IWShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E8D07A1F16ABB733D4AB9167B6134E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A8236DE756B6CC6F9AE54FDA7DD6CC8A /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A525B8A5B5C0539F7C10D718F6F013E /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8BE0A0E8BFB038BCCDF6B1D3D1CC05 /* IWQQZoneSharePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F009036709D4DB6764775BD82F87C42A /* IWQQZoneSharePlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADF4DC6C70B7D43B2929AAAD8B09C1CE /* IWWxSessionPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E025235089D6FF89B7F14BB1B1268555 /* IWWxSessionPlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE61BCA76034BAB988E576FFCF1AEAC3 /* TencentOpenApiUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CB30ED85B7D35F489F709EA75BFD36 /* TencentOpenApiUmbrellaHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C5DEF080DD4EDB7F6B192BF4E92A3C /* IWShareValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A829F7E74C5DF868BBB310B21C51EF7 /* IWShareValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F5EF7DC52FCE2C36BB015DE4ABDFB9 /* IWQQShareApiHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7C2944C2C330C2B8250A5798519794 /* IWQQShareApiHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3AE16212D9986A0B7D809C6C848CB01 /* IWShareBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BFD9826D899F327FC11BB40C5F7DC8 /* IWShareBundle.m */; };
+		C3FD8AE63473C03C4014E54B1BE24C01 /* IWShareSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33CEB23094F63A263235A2CF863C80 /* IWShareSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2A4F54DF2FAB31775C9E330F1FE621 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77DC44F1E2545C04006169E11A7260 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m */; };
+		CE614C1EB252C9455625422C6DC5EEC9 /* IWUIShareHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC1368FAAD73D28329D25ED882123B2 /* IWUIShareHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0423C3EBB1750B0471F48EE8AA50AC9 /* IWWxSessionPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BC6924F3FE6D6F275A5A855D2677D0 /* IWWxSessionPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3EABA53B4FCE8A1714338F16E8F1FD /* IWShareSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCEAE588DF7DF67169D8CDD931136D /* IWShareSDK-dummy.m */; };
+		DA5A341F640B6F8D15CEB3508B5DB9F6 /* DTImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3134C8C68BF167FFBF74A31419C7D /* DTImages.xcassets */; };
+		DBD8624221137BE50BB536172F20F9E9 /* IWQQFriendsPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E039B0BFC5D14A26DDB2C0D7AAE0FD8 /* IWQQFriendsPlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E0B5619D759986CE4E5428B1C8B62C54 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E230EBDB238BA9E226CD01F451555C9 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EB04E14C26874C984ED74F76CA1601 /* IWDTPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8371B658D343FBD4D7E56D79319E1B /* IWDTPlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E22780324B62CA1040DBFE34ED318D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E5E522848147B04D152D20BA85DCA894 /* Pods-iOS SDK Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61EAA074D8817D29318727616D27EA /* Pods-iOS SDK Demo-dummy.m */; };
+		F137E25985B60FA9B93506C233C94DD1 /* IWShareCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A84D3F87EBD078D457B56A9276C9ED /* IWShareCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F494C44556B7662D56CFCCF296FF27EB /* IWWxShareApiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D956D6277DA376F048A870B91340E9D /* IWWxShareApiHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA8C5A47235717FF235099433B989082 /* Pods-iOS SDK Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEF58BAF2067B1D2A9D45700C188CEB /* Pods-iOS SDK Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC855E1A1F8CED887E7D3FC3A4F78ECC /* IWShareBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDBE28393A9BEF7D77E87FFAABA9F78 /* IWShareBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2C47AC3487F2E728F9E074AB757CCC /* IWShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D1A42D9220D29BE3B40CE84513085 /* IWShareManager.m */; };
+		FD43B3482C428A631224C28A265A7F95 /* IWShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 361577198A32C58BA39C3A818F9CFE1D /* IWShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B4878CB85DFFACD7EF1C71D37D0D278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB49956E5848F4AEDF1DC48C886C706E;
+			remoteInfo = "IWShareSDK-IWDTPlatform";
+		};
+		17C9A3BE9D8C1971957FD1BC9C5A71EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		394E7995376E9473799F782CB0AD8CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E8E29F646364C03A710F01DA056661;
+			remoteInfo = IWShareSDK;
+		};
+		630EBF252F35DD591F52C64442B1123B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4BDC6EFEC8AC625965494543E0DD10;
+			remoteInfo = "Pods-iOS SDK Demo";
+		};
+		98B26366DBAD64C37661FCC68F165962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7487235AEE59B4070F62F59D99AE4;
+			remoteInfo = "IWShareSDK-IWQQSharePlatform";
+		};
+		BB44F27E80434E9234DFBBC545D39181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8AAF0506F591B42912AF54CC80AC8B4;
+			remoteInfo = "IWShareSDK-IWWXSharePlatform";
+		};
+		C2ED46248AE98A8247D8336CFC91D3D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		EF1671A3EF339E70C7303FE10E330C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638FEAAFC575BB76BC6AC055CDDA3506;
+			remoteInfo = LookinServer;
+		};
+		F2557857F10FDB6822A3F4A8104341FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E8E29F646364C03A710F01DA056661;
+			remoteInfo = IWShareSDK;
+		};
+		F4F5E53C577548537A0AB4692FE168BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638FEAAFC575BB76BC6AC055CDDA3506;
+			remoteInfo = LookinServer;
+		};
+		F920EDD41FCDAFD836A7E0EEB6EF1A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0178EA7B8F2EDB3E12DCD8681737D40F /* DTOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPIObject.h; sourceTree = "<group>"; };
+		02CCEAE588DF7DF67169D8CDD931136D /* IWShareSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IWShareSDK-dummy.m"; sourceTree = "<group>"; };
+		05BC6924F3FE6D6F275A5A855D2677D0 /* IWWxSessionPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWWxSessionPlatform.h; sourceTree = "<group>"; };
+		0654582BCDF6C24C7D9DAE73E991879F /* ResourceBundle-IWQQSharePlatform-IWShareSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IWQQSharePlatform-IWShareSDK-Info.plist"; sourceTree = "<group>"; };
+		09122CE12099A160AAD25FC4D3D92E73 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		0E230EBDB238BA9E226CD01F451555C9 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		0E4126625B2ECC942039B69F51204FCF /* Pods-iOS SDK Demo-iOS SDK DemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests.modulemap"; sourceTree = "<group>"; };
+		11CB30ED85B7D35F489F709EA75BFD36 /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
+		13E294C1A2794D9A5FF4B59B0EDA4887 /* Pods-iOS SDK Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS SDK Demo-frameworks.sh"; sourceTree = "<group>"; };
+		1542153BCF84F14781831444DC14E41B /* IWShareCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShareCoordinator.m; sourceTree = "<group>"; };
+		171991BA2EBA4002E9C3133193687075 /* IWUICollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWUICollectionViewCell.h; sourceTree = "<group>"; };
+		1A7D78FC0831DDCECE4FC70F1D3BB7F7 /* IWQQFriendsPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWQQFriendsPlatform.h; sourceTree = "<group>"; };
+		1C3E892ABB5BB62D837BCF9912860819 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1C8371B658D343FBD4D7E56D79319E1B /* IWDTPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IWDTPlatform.m; path = IWShareSDK/Classes/DT/IWDTPlatform.m; sourceTree = "<group>"; };
+		1D956D6277DA376F048A870B91340E9D /* IWWxShareApiHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWWxShareApiHandler.m; sourceTree = "<group>"; };
+		2A525B8A5B5C0539F7C10D718F6F013E /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		2ACA0D8D5F3AC2E18321240AF1180D20 /* IWWxTimelinePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWWxTimelinePlatform.h; sourceTree = "<group>"; };
+		2E96389F6105ABDAE2B144EDFE31B6B3 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3294A706FE043075E791138CB807CF97 /* IWShareBasePlateform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareBasePlateform.h; sourceTree = "<group>"; };
+		3390517F8176D55929D4979D75769CD7 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		361577198A32C58BA39C3A818F9CFE1D /* IWShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShare.h; sourceTree = "<group>"; };
+		368079DAEFCC835E459658245D3BB67F /* Pods-iOS SDK Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS SDK Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39CA4BD0042C1D85BEC65DDB85E14331 /* IWWXSharePlatform.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IWWXSharePlatform.bundle; path = "IWShareSDK-IWWXSharePlatform.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF3134C8C68BF167FFBF74A31419C7D /* DTImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = DTImages.xcassets; path = IWShareSDK/Assets/DTImages.xcassets; sourceTree = "<group>"; };
+		3E039B0BFC5D14A26DDB2C0D7AAE0FD8 /* IWQQFriendsPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWQQFriendsPlatform.m; sourceTree = "<group>"; };
+		3E114E4D07BF75C6459028F01D29AC96 /* IWQQShareApiHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWQQShareApiHandle.m; sourceTree = "<group>"; };
+		403E1130F30D08B53A6CF13C10640335 /* DTOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPI.h; sourceTree = "<group>"; };
+		425A238F3289FC4CC9C6DB9A4493CEBE /* IWUIShareFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWUIShareFooterView.m; sourceTree = "<group>"; };
+		4B1AA9C9DE18C931569E10F2D3EA9C6D /* IWWxFavoritePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWWxFavoritePlatform.h; sourceTree = "<group>"; };
+		4C39B96C1300CB5E8BC3EB9AB1C05D42 /* ResourceBundle-IWDTPlatform-IWShareSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IWDTPlatform-IWShareSDK-Info.plist"; sourceTree = "<group>"; };
+		4CEF58BAF2067B1D2A9D45700C188CEB /* Pods-iOS SDK Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS SDK Demo-umbrella.h"; sourceTree = "<group>"; };
+		4D77DC44F1E2545C04006169E11A7260 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		4E7C2944C2C330C2B8250A5798519794 /* IWQQShareApiHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWQQShareApiHandle.h; sourceTree = "<group>"; };
+		513C93AF3461659CD496CD5BA19D7C3D /* Pods-iOS SDK DemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK DemoTests-Info.plist"; sourceTree = "<group>"; };
+		52B3943274348E2FA3009C2D39DCDDEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54E34D9135E2FC21FD88B0DFFC975DDF /* LookinServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.release.xcconfig; sourceTree = "<group>"; };
+		5B33CEB23094F63A263235A2CF863C80 /* IWShareSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IWShareSDK-umbrella.h"; sourceTree = "<group>"; };
+		5D85325613181322A8AC13EB6DBDC5D9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		5F8FDAEDB3103E76F7081267E848C3C3 /* LookinServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.debug.xcconfig; sourceTree = "<group>"; };
+		6190F9F5E6F6653736B459E2E8D63FA6 /* Pods-iOS SDK Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK Demo-Info.plist"; sourceTree = "<group>"; };
+		67F60529D05E590A423ECE462CFD7293 /* IWShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareManager.h; sourceTree = "<group>"; };
+		6FBFC98A242B4E145EC180CB0230C197 /* IWQQSharePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWQQSharePlatform.h; path = IWShareSDK/Classes/QQ/IWQQSharePlatform.h; sourceTree = "<group>"; };
+		723B670A581EA4DAA08E71D689F78BCB /* Pods_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_SDK_Demo.framework; path = "Pods-iOS SDK Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA9813223622ED4DDE7F5B130906105 /* IWUIShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWUIShareView.m; sourceTree = "<group>"; };
+		7E0664DE054440BC9BAE9989E202DC76 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		7F7D47EF2C98A4F1E79B6ACD265F3D99 /* IWShareSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IWShareSDK-Info.plist"; sourceTree = "<group>"; };
+		8097E448FDF08BA567C0214452ED9F64 /* Pods-iOS SDK DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS SDK DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8222CD18D85F904851A66EDA6A0E0D8C /* Pods-iOS SDK DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		867DB29F01832B720705A477B64FA1AC /* IWWxPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IWWxPlatform.m; path = IWShareSDK/Classes/WX/IWWxPlatform.m; sourceTree = "<group>"; };
+		87F66B821F4A5184349BDC3F4DC739B4 /* IWUIShareHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWUIShareHeaderView.m; sourceTree = "<group>"; };
+		8905DCB05E516D67C4EBE40650E67DCD /* IWUIShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWUIShareView.h; sourceTree = "<group>"; };
+		892152586DCF5582BD81824E6E6D54D9 /* IWShareSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWShareSDK.h; path = IWShareSDK/Classes/IWShareSDK.h; sourceTree = "<group>"; };
+		8A829F7E74C5DF868BBB310B21C51EF7 /* IWShareValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareValue.h; sourceTree = "<group>"; };
+		8AD779907D90C8B439553FA673F6F655 /* Pods-iOS SDK DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS SDK DemoTests-dummy.m"; sourceTree = "<group>"; };
+		8B3F4096AD8AF11B2CDF8AB74F1C3EF0 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = IWShareSDK/Classes/QQ/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		8E41CAF5136CAA512739E77087E43A78 /* WXImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = WXImages.xcassets; path = IWShareSDK/Assets/WXImages.xcassets; sourceTree = "<group>"; };
+		9051992083B22BE788E20AB4030E6DB2 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IWShareSDK.debug.xcconfig; sourceTree = "<group>"; };
+		94C51F68A0B2A46B60ACB44C2E245C6C /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		965733E024382305B0B5764A869F31C1 /* Pods_iOS_SDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_SDK_DemoTests.framework; path = "Pods-iOS SDK DemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A84D3F87EBD078D457B56A9276C9ED /* IWShareCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareCoordinator.h; sourceTree = "<group>"; };
+		9A4D1A42D9220D29BE3B40CE84513085 /* IWShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShareManager.m; sourceTree = "<group>"; };
+		9CDF8930C17722682A7691ED25B7ED7B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA001F4C410DF425A9A05C31D70239B /* Pods-iOS SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C74DC8D6D5A2E7A925A9EE19A7D511 /* IWWxShareApiHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWWxShareApiHandler.h; sourceTree = "<group>"; };
+		A39A27FEAF25FD83DF94F5570BB64689 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2DECB390DD91B8AF32D9CE55417F61 /* Pods-iOS SDK DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB68A3370CB970197C2D147D96C69923 /* IWShareSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IWShareSDK.modulemap; sourceTree = "<group>"; };
+		ACA1F135FBAFFF4FA40547AE6BA4EC77 /* IWShareTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShareTool.m; sourceTree = "<group>"; };
+		AE3565B59469B3B0FBCF62E0A6018E23 /* Pods-iOS SDK Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS SDK Demo-resources.sh"; sourceTree = "<group>"; };
+		AF1EEB358093DFD0989D8DFEA782FE2D /* Pods-iOS SDK Demo-iOS SDK DemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-Info.plist"; sourceTree = "<group>"; };
+		B2BF91463F965F0A6B5F655C8472C895 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B323630D4EB61579717A86107299DC30 /* Pods-iOS SDK DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3BFD9826D899F327FC11BB40C5F7DC8 /* IWShareBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShareBundle.m; sourceTree = "<group>"; };
+		B46C754F9EA570B743CB350B2BA2B740 /* IWWxPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWWxPlatform.h; path = IWShareSDK/Classes/WX/IWWxPlatform.h; sourceTree = "<group>"; };
+		B4A4DD40935BB4A11554BCC2DC9F4661 /* IWUICollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWUICollectionViewCell.m; sourceTree = "<group>"; };
+		B6749F1F8B890C51460AD87BC092BD01 /* IWShareBasePlateform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShareBasePlateform.m; sourceTree = "<group>"; };
+		B79A8A7B4B6F7CBC7D840C81A9BBDAB4 /* IWQQSharePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IWQQSharePlatform.m; path = IWShareSDK/Classes/QQ/IWQQSharePlatform.m; sourceTree = "<group>"; };
+		B846FE1E61BC6E63AD0ADA5223A06554 /* ResourceBundle-IWWXSharePlatform-IWShareSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IWWXSharePlatform-IWShareSDK-Info.plist"; sourceTree = "<group>"; };
+		BC32EEC2D9FDCB731E75EC4DD831CA69 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-resources.sh"; sourceTree = "<group>"; };
+		BCF07451D561D912593E7C47E6AF35F1 /* Pods-iOS SDK DemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS SDK DemoTests.modulemap"; sourceTree = "<group>"; };
+		BEAE679D567CA379F8F6955B2F245908 /* IWWxTimelinePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWWxTimelinePlatform.m; sourceTree = "<group>"; };
+		C1937E3E7D613409A5B98BF01E85EAE6 /* IWShareTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareTool.h; sourceTree = "<group>"; };
+		C37C3F213480650902C74F38C2328615 /* IWQQZoneSharePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWQQZoneSharePlatform.h; sourceTree = "<group>"; };
+		C65BD52E0237A7FBD07C955C668E8B15 /* IWDTPlatform.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IWDTPlatform.bundle; path = "IWShareSDK-IWDTPlatform.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F9860180D4FEC5983680FDBE782C7E /* IWDTPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWDTPlatform.h; path = IWShareSDK/Classes/DT/IWDTPlatform.h; sourceTree = "<group>"; };
+		C8ACE8ED629443ADEC363EFFEF9E308F /* Pods_iOS_SDK_Demo_iOS_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_SDK_Demo_iOS_SDK_DemoUITests.framework; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FBD85BDCAFB5BAA062AADC485DE1A8 /* Pods-iOS SDK DemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS SDK DemoTests-umbrella.h"; sourceTree = "<group>"; };
+		CA468ABD85F1606ADF620388F576330B /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = IWShareSDK/Classes/DT/DTShareKit.framework; sourceTree = "<group>"; };
+		CF7AD0DAEA223BF8A6B882585C80B487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D201D9BAEAFABBBE149560E6D5759CA4 /* QQImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = QQImages.xcassets; path = IWShareSDK/Assets/QQImages.xcassets; sourceTree = "<group>"; };
+		D6567AE4FB237E7B2CC9B54679A3294C /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		D9EE5713737AA31CCC6C3FB005C695F8 /* IWQQSharePlatform.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IWQQSharePlatform.bundle; path = "IWShareSDK-IWQQSharePlatform.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD273846F8E24EA776E23DA34EF06D68 /* IWShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IWShareSDK.framework; path = IWShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E025235089D6FF89B7F14BB1B1268555 /* IWWxSessionPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWWxSessionPlatform.m; sourceTree = "<group>"; };
+		E092396D7148A27788040A73EEA89DF6 /* IWShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWShare.m; sourceTree = "<group>"; };
+		E115CECE791EF5E403210B7ED2F9BC72 /* LookinServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LookinServer.framework; sourceTree = "<group>"; };
+		E2F3C662FD739BC48B333CA1A04B265D /* IWShareSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IWShareSDK-prefix.pch"; sourceTree = "<group>"; };
+		E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IWShareSDK.release.xcconfig; sourceTree = "<group>"; };
+		EA61EAA074D8817D29318727616D27EA /* Pods-iOS SDK Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS SDK Demo-dummy.m"; sourceTree = "<group>"; };
+		EB28691FC333230E7240D3B8D5140FDC /* IWUIShareFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWUIShareFooterView.h; sourceTree = "<group>"; };
+		EC5BCD9797A9BA0665195A0E28721C39 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		EEDBE28393A9BEF7D77E87FFAABA9F78 /* IWShareBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWShareBundle.h; sourceTree = "<group>"; };
+		EF674466C9A5BAC3EF33D26D0720F02C /* Pods-iOS SDK Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS SDK Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFA7943EF00DA2C5C4DDDCA4A28A0F7A /* Pods-iOS SDK Demo-iOS SDK DemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS SDK Demo-iOS SDK DemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F009036709D4DB6764775BD82F87C42A /* IWQQZoneSharePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWQQZoneSharePlatform.m; sourceTree = "<group>"; };
+		F1A709D7CF5D7F874360BC309DDAC2AE /* IWWxFavoritePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IWWxFavoritePlatform.m; sourceTree = "<group>"; };
+		F400A5363B8C6C4D0A1EF1F1D6EBD16D /* Pods-iOS SDK Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS SDK Demo.modulemap"; sourceTree = "<group>"; };
+		F86D431DA2635A587CA08C76C859B41F /* DTOpenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenKit.h; sourceTree = "<group>"; };
+		F8B11F7C105B19C5E440E281F8A959F4 /* Pods-iOS SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		FC2D3FD332B163F098B9B1768BF7B42F /* IWShareSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IWShareSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDC1368FAAD73D28329D25ED882123B2 /* IWUIShareHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IWUIShareHeaderView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68313190220695079FBB452890DEFEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932BFBF3C77492BD3742A5BF3594992C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6BC8D29A079821998D8A5A58C1D96A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93ED83AA895DFFC7A1A52C7F2C9DA14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC751E9D963F265D7A2131CB7369D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E8D07A1F16ABB733D4AB9167B6134E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC93500368F116A40C89C3435231922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F0B1F16142B6BCDCB888974B4694EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5519423EAF720A1D1CB748431C88DD0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B71515566587690DE0E98072FC88E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22780324B62CA1040DBFE34ED318D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03517AE5049A946DEFE495C5FCFBE8C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E892ABB5BB62D837BCF9912860819 /* WechatOpenSDK.debug.xcconfig */,
+				2E96389F6105ABDAE2B144EDFE31B6B3 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		11299C4DA25EA4E0DCD751D807A28230 /* IWSubPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D78FC0831DDCECE4FC70F1D3BB7F7 /* IWQQFriendsPlatform.h */,
+				3E039B0BFC5D14A26DDB2C0D7AAE0FD8 /* IWQQFriendsPlatform.m */,
+				C37C3F213480650902C74F38C2328615 /* IWQQZoneSharePlatform.h */,
+				F009036709D4DB6764775BD82F87C42A /* IWQQZoneSharePlatform.m */,
+			);
+			name = IWSubPlatform;
+			path = IWShareSDK/Classes/QQ/IWSubPlatform;
+			sourceTree = "<group>";
+		};
+		12D047F5BFD384ABECAA181B73E68A98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB68A3370CB970197C2D147D96C69923 /* IWShareSDK.modulemap */,
+				02CCEAE588DF7DF67169D8CDD931136D /* IWShareSDK-dummy.m */,
+				7F7D47EF2C98A4F1E79B6ACD265F3D99 /* IWShareSDK-Info.plist */,
+				E2F3C662FD739BC48B333CA1A04B265D /* IWShareSDK-prefix.pch */,
+				5B33CEB23094F63A263235A2CF863C80 /* IWShareSDK-umbrella.h */,
+				947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */,
+				E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */,
+				4C39B96C1300CB5E8BC3EB9AB1C05D42 /* ResourceBundle-IWDTPlatform-IWShareSDK-Info.plist */,
+				0654582BCDF6C24C7D9DAE73E991879F /* ResourceBundle-IWQQSharePlatform-IWShareSDK-Info.plist */,
+				B846FE1E61BC6E63AD0ADA5223A06554 /* ResourceBundle-IWWXSharePlatform-IWShareSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../iOS SDK Demo/Pods/Target Support Files/IWShareSDK";
+			sourceTree = "<group>";
+		};
+		1753E98F7703AEE88238CAC20260AB63 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5BCD9797A9BA0665195A0E28721C39 /* QQApiInterface.h */,
+				09122CE12099A160AAD25FC4D3D92E73 /* QQApiInterfaceObject.h */,
+				2A525B8A5B5C0539F7C10D718F6F013E /* sdkdef.h */,
+				D6567AE4FB237E7B2CC9B54679A3294C /* TencentOAuth.h */,
+				11CB30ED85B7D35F489F709EA75BFD36 /* TencentOpenApiUmbrellaHeader.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		18CAB026DDDCF70AE32137CA50358723 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A2C74DC8D6D5A2E7A925A9EE19A7D511 /* IWWxShareApiHandler.h */,
+				1D956D6277DA376F048A870B91340E9D /* IWWxShareApiHandler.m */,
+			);
+			name = Helper;
+			path = IWShareSDK/Classes/WX/Helper;
+			sourceTree = "<group>";
+		};
+		1C4410909A5B53E51A836CD555CAEE95 /* WX */ = {
+			isa = PBXGroup;
+			children = (
+				B46C754F9EA570B743CB350B2BA2B740 /* IWWxPlatform.h */,
+				867DB29F01832B720705A477B64FA1AC /* IWWxPlatform.m */,
+				18CAB026DDDCF70AE32137CA50358723 /* Helper */,
+				C838D3B61E33BFBF81F42CD7F176A91C /* IWSubPlatform */,
+				FAB7A63AE1462FBC0466F75EFBEF56DD /* Resources */,
+			);
+			name = WX;
+			sourceTree = "<group>";
+		};
+		35E06DDA6FB8D9A2AC0BBBAE6C566102 /* Pods-iOS SDK Demo-iOS SDK DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4126625B2ECC942039B69F51204FCF /* Pods-iOS SDK Demo-iOS SDK DemoUITests.modulemap */,
+				9051992083B22BE788E20AB4030E6DB2 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.markdown */,
+				B2BF91463F965F0A6B5F655C8472C895 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-acknowledgements.plist */,
+				4D77DC44F1E2545C04006169E11A7260 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m */,
+				EFA7943EF00DA2C5C4DDDCA4A28A0F7A /* Pods-iOS SDK Demo-iOS SDK DemoUITests-frameworks.sh */,
+				AF1EEB358093DFD0989D8DFEA782FE2D /* Pods-iOS SDK Demo-iOS SDK DemoUITests-Info.plist */,
+				BC32EEC2D9FDCB731E75EC4DD831CA69 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-resources.sh */,
+				0E230EBDB238BA9E226CD01F451555C9 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h */,
+				A39A27FEAF25FD83DF94F5570BB64689 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.debug.xcconfig */,
+				3390517F8176D55929D4979D75769CD7 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-iOS SDK Demo-iOS SDK DemoUITests";
+			path = "Target Support Files/Pods-iOS SDK Demo-iOS SDK DemoUITests";
+			sourceTree = "<group>";
+		};
+		4319496C7857ED0BE90CE7B80771EAAC /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5D85325613181322A8AC13EB6DBDC5D9 /* WechatAuthSDK.h */,
+				7E0664DE054440BC9BAE9989E202DC76 /* WXApi.h */,
+				94C51F68A0B2A46B60ACB44C2E245C6C /* WXApiObject.h */,
+				C1C86D53C2F36DEABD443FCF1BD6CC17 /* Frameworks */,
+				03517AE5049A946DEFE495C5FCFBE8C4 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		500EFDFDCD09F03A9DAE4A4E1B5A2F65 /* Pods-iOS SDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F400A5363B8C6C4D0A1EF1F1D6EBD16D /* Pods-iOS SDK Demo.modulemap */,
+				368079DAEFCC835E459658245D3BB67F /* Pods-iOS SDK Demo-acknowledgements.markdown */,
+				EF674466C9A5BAC3EF33D26D0720F02C /* Pods-iOS SDK Demo-acknowledgements.plist */,
+				EA61EAA074D8817D29318727616D27EA /* Pods-iOS SDK Demo-dummy.m */,
+				13E294C1A2794D9A5FF4B59B0EDA4887 /* Pods-iOS SDK Demo-frameworks.sh */,
+				6190F9F5E6F6653736B459E2E8D63FA6 /* Pods-iOS SDK Demo-Info.plist */,
+				AE3565B59469B3B0FBCF62E0A6018E23 /* Pods-iOS SDK Demo-resources.sh */,
+				4CEF58BAF2067B1D2A9D45700C188CEB /* Pods-iOS SDK Demo-umbrella.h */,
+				9FA001F4C410DF425A9A05C31D70239B /* Pods-iOS SDK Demo.debug.xcconfig */,
+				F8B11F7C105B19C5E440E281F8A959F4 /* Pods-iOS SDK Demo.release.xcconfig */,
+			);
+			name = "Pods-iOS SDK Demo";
+			path = "Target Support Files/Pods-iOS SDK Demo";
+			sourceTree = "<group>";
+		};
+		532E73963C2E67435423257DAE3CE1D7 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7F0944E4573627E6ACB33F30D4640 /* A */,
+			);
+			name = Versions;
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		53FA6D1965719B1C41406F4AC1970132 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				6FBFC98A242B4E145EC180CB0230C197 /* IWQQSharePlatform.h */,
+				B79A8A7B4B6F7CBC7D840C81A9BBDAB4 /* IWQQSharePlatform.m */,
+				78015011A40182F6825EAC54CCD6E4AF /* Frameworks */,
+				BD82D5BDC1C4A13C2A198A31B140F4FF /* Helper */,
+				11299C4DA25EA4E0DCD751D807A28230 /* IWSubPlatform */,
+				AF424DBB822358B9564536AB2C4AB128 /* Resources */,
+				F89F6E09351220234977DC5F9AD54319 /* TencentOpenAPI.framework */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		54DD433B149C27FB83A5680575A2102C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D3FD332B163F098B9B1768BF7B42F /* IWShareSDK.podspec */,
+				52B3943274348E2FA3009C2D39DCDDEF /* LICENSE */,
+				CF7AD0DAEA223BF8A6B882585C80B487 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E3AFE52AA917BED967CC5CD7C06CE57 /* Pods-iOS SDK DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF07451D561D912593E7C47E6AF35F1 /* Pods-iOS SDK DemoTests.modulemap */,
+				8097E448FDF08BA567C0214452ED9F64 /* Pods-iOS SDK DemoTests-acknowledgements.markdown */,
+				8222CD18D85F904851A66EDA6A0E0D8C /* Pods-iOS SDK DemoTests-acknowledgements.plist */,
+				8AD779907D90C8B439553FA673F6F655 /* Pods-iOS SDK DemoTests-dummy.m */,
+				513C93AF3461659CD496CD5BA19D7C3D /* Pods-iOS SDK DemoTests-Info.plist */,
+				C8FBD85BDCAFB5BAA062AADC485DE1A8 /* Pods-iOS SDK DemoTests-umbrella.h */,
+				AB2DECB390DD91B8AF32D9CE55417F61 /* Pods-iOS SDK DemoTests.debug.xcconfig */,
+				B323630D4EB61579717A86107299DC30 /* Pods-iOS SDK DemoTests.release.xcconfig */,
+			);
+			name = "Pods-iOS SDK DemoTests";
+			path = "Target Support Files/Pods-iOS SDK DemoTests";
+			sourceTree = "<group>";
+		};
+		6CE937CD3EA38AA2A6486F0FC2B58201 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				500EFDFDCD09F03A9DAE4A4E1B5A2F65 /* Pods-iOS SDK Demo */,
+				35E06DDA6FB8D9A2AC0BBBAE6C566102 /* Pods-iOS SDK Demo-iOS SDK DemoUITests */,
+				5E3AFE52AA917BED967CC5CD7C06CE57 /* Pods-iOS SDK DemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DC7EC07FDA6C37D91B27BF170944781 /* DTShareKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				532E73963C2E67435423257DAE3CE1D7 /* Versions */,
+			);
+			name = DTShareKit.framework;
+			path = IWShareSDK/Classes/DT/DTShareKit.framework;
+			sourceTree = "<group>";
+		};
+		75EE879CEFD7A8CBBC5C8C77079F10AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3134C8C68BF167FFBF74A31419C7D /* DTImages.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78015011A40182F6825EAC54CCD6E4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B3F4096AD8AF11B2CDF8AB74F1C3EF0 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EA51720C145F5F022C02DCE011EBE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65BD52E0237A7FBD07C955C668E8B15 /* IWDTPlatform.bundle */,
+				D9EE5713737AA31CCC6C3FB005C695F8 /* IWQQSharePlatform.bundle */,
+				DD273846F8E24EA776E23DA34EF06D68 /* IWShareSDK.framework */,
+				39CA4BD0042C1D85BEC65DDB85E14331 /* IWWXSharePlatform.bundle */,
+				723B670A581EA4DAA08E71D689F78BCB /* Pods_iOS_SDK_Demo.framework */,
+				C8ACE8ED629443ADEC363EFFEF9E308F /* Pods_iOS_SDK_Demo_iOS_SDK_DemoUITests.framework */,
+				965733E024382305B0B5764A869F31C1 /* Pods_iOS_SDK_DemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967E54347718FFEB8A9BCFCCAFB114D0 /* DT */ = {
+			isa = PBXGroup;
+			children = (
+				C6F9860180D4FEC5983680FDBE782C7E /* IWDTPlatform.h */,
+				1C8371B658D343FBD4D7E56D79319E1B /* IWDTPlatform.m */,
+				6DC7EC07FDA6C37D91B27BF170944781 /* DTShareKit.framework */,
+				F2514142BE88F6CB7B29ECC642C413FD /* Frameworks */,
+				75EE879CEFD7A8CBBC5C8C77079F10AE /* Resources */,
+			);
+			name = DT;
+			sourceTree = "<group>";
+		};
+		98FD8F72AE3570CD88A299D82720CCDC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3294A706FE043075E791138CB807CF97 /* IWShareBasePlateform.h */,
+				B6749F1F8B890C51460AD87BC092BD01 /* IWShareBasePlateform.m */,
+				97A84D3F87EBD078D457B56A9276C9ED /* IWShareCoordinator.h */,
+				1542153BCF84F14781831444DC14E41B /* IWShareCoordinator.m */,
+				67F60529D05E590A423ECE462CFD7293 /* IWShareManager.h */,
+				9A4D1A42D9220D29BE3B40CE84513085 /* IWShareManager.m */,
+				8A829F7E74C5DF868BBB310B21C51EF7 /* IWShareValue.h */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A875D09DB44C80CFBD62BAAF0E9BF45F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E115CECE791EF5E403210B7ED2F9BC72 /* LookinServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8FC149490C6E98B243E0DD9114BDD7E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				403E1130F30D08B53A6CF13C10640335 /* DTOpenAPI.h */,
+				0178EA7B8F2EDB3E12DCD8681737D40F /* DTOpenAPIObject.h */,
+				F86D431DA2635A587CA08C76C859B41F /* DTOpenKit.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		ACC2D3F94305F815007CE3AD7E15E055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BCD9CB8CC55BC8FDBB9B846FE9532 /* LookinServer */,
+				4319496C7857ED0BE90CE7B80771EAAC /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF424DBB822358B9564536AB2C4AB128 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D201D9BAEAFABBBE149560E6D5759CA4 /* QQImages.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AFB2EAB232613CADB9EBC361C39365EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FDAEDB3103E76F7081267E848C3C3 /* LookinServer.debug.xcconfig */,
+				54E34D9135E2FC21FD88B0DFFC975DDF /* LookinServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LookinServer";
+			sourceTree = "<group>";
+		};
+		B1CC2C8A652A77B268A1EB29117AA46F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				361577198A32C58BA39C3A818F9CFE1D /* IWShare.h */,
+				E092396D7148A27788040A73EEA89DF6 /* IWShare.m */,
+				98FD8F72AE3570CD88A299D82720CCDC /* Base */,
+				F9906A2CB9E1A719ABEF4D14096BFE22 /* resources */,
+				CDF0C423ADB2D47F229165A44B49D3DC /* UI */,
+			);
+			name = Core;
+			path = IWShareSDK/Classes/Core;
+			sourceTree = "<group>";
+		};
+		B25905D15E9BB61E88B85638948AF386 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				892152586DCF5582BD81824E6E6D54D9 /* IWShareSDK.h */,
+				B1CC2C8A652A77B268A1EB29117AA46F /* Core */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		BD82D5BDC1C4A13C2A198A31B140F4FF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4E7C2944C2C330C2B8250A5798519794 /* IWQQShareApiHandle.h */,
+				3E114E4D07BF75C6459028F01D29AC96 /* IWQQShareApiHandle.m */,
+			);
+			name = Helper;
+			path = IWShareSDK/Classes/QQ/Helper;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1C86D53C2F36DEABD443FCF1BD6CC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF8930C17722682A7691ED25B7ED7B /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C838D3B61E33BFBF81F42CD7F176A91C /* IWSubPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				4B1AA9C9DE18C931569E10F2D3EA9C6D /* IWWxFavoritePlatform.h */,
+				F1A709D7CF5D7F874360BC309DDAC2AE /* IWWxFavoritePlatform.m */,
+				05BC6924F3FE6D6F275A5A855D2677D0 /* IWWxSessionPlatform.h */,
+				E025235089D6FF89B7F14BB1B1268555 /* IWWxSessionPlatform.m */,
+				2ACA0D8D5F3AC2E18321240AF1180D20 /* IWWxTimelinePlatform.h */,
+				BEAE679D567CA379F8F6955B2F245908 /* IWWxTimelinePlatform.m */,
+			);
+			name = IWSubPlatform;
+			path = IWShareSDK/Classes/WX/IWSubPlatform;
+			sourceTree = "<group>";
+		};
+		CDF0C423ADB2D47F229165A44B49D3DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				171991BA2EBA4002E9C3133193687075 /* IWUICollectionViewCell.h */,
+				B4A4DD40935BB4A11554BCC2DC9F4661 /* IWUICollectionViewCell.m */,
+				EB28691FC333230E7240D3B8D5140FDC /* IWUIShareFooterView.h */,
+				425A238F3289FC4CC9C6DB9A4493CEBE /* IWUIShareFooterView.m */,
+				FDC1368FAAD73D28329D25ED882123B2 /* IWUIShareHeaderView.h */,
+				87F66B821F4A5184349BDC3F4DC739B4 /* IWUIShareHeaderView.m */,
+				8905DCB05E516D67C4EBE40650E67DCD /* IWUIShareView.h */,
+				7CA9813223622ED4DDE7F5B130906105 /* IWUIShareView.m */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F9A354EB15ADEE21F2FC8034F32EF24D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ACC2D3F94305F815007CE3AD7E15E055 /* Pods */,
+				7EA51720C145F5F022C02DCE011EBE8B /* Products */,
+				6CE937CD3EA38AA2A6486F0FC2B58201 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1BCD9CB8CC55BC8FDBB9B846FE9532 /* LookinServer */ = {
+			isa = PBXGroup;
+			children = (
+				A875D09DB44C80CFBD62BAAF0E9BF45F /* Frameworks */,
+				AFB2EAB232613CADB9EBC361C39365EF /* Support Files */,
+			);
+			name = LookinServer;
+			path = LookinServer;
+			sourceTree = "<group>";
+		};
+		EB97A9BCEF25FDB2EE6D536EBD4E5655 /* IWShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B25905D15E9BB61E88B85638948AF386 /* core */,
+				967E54347718FFEB8A9BCFCCAFB114D0 /* DT */,
+				54DD433B149C27FB83A5680575A2102C /* Pod */,
+				53FA6D1965719B1C41406F4AC1970132 /* QQ */,
+				12D047F5BFD384ABECAA181B73E68A98 /* Support Files */,
+				1C4410909A5B53E51A836CD555CAEE95 /* WX */,
+			);
+			name = IWShareSDK;
+			path = ../../IWShareSDK;
+			sourceTree = "<group>";
+		};
+		F2514142BE88F6CB7B29ECC642C413FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA468ABD85F1606ADF620388F576330B /* DTShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F89F6E09351220234977DC5F9AD54319 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				1753E98F7703AEE88238CAC20260AB63 /* Headers */,
+			);
+			name = TencentOpenAPI.framework;
+			path = IWShareSDK/Classes/QQ/TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		F9906A2CB9E1A719ABEF4D14096BFE22 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEDBE28393A9BEF7D77E87FFAABA9F78 /* IWShareBundle.h */,
+				B3BFD9826D899F327FC11BB40C5F7DC8 /* IWShareBundle.m */,
+				C1937E3E7D613409A5B98BF01E85EAE6 /* IWShareTool.h */,
+				ACA1F135FBAFFF4FA40547AE6BA4EC77 /* IWShareTool.m */,
+			);
+			name = resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F9A354EB15ADEE21F2FC8034F32EF24D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB97A9BCEF25FDB2EE6D536EBD4E5655 /* IWShareSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FAB7A63AE1462FBC0466F75EFBEF56DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E41CAF5136CAA512739E77087E43A78 /* WXImages.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBB7F0944E4573627E6ACB33F30D4640 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				A8FC149490C6E98B243E0DD9114BDD7E /* Headers */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FF10C077470F0095A610A9FD12D44B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01FEAD6D7AA73A41BA2D0F43D18AAE /* DTOpenAPI.h in Headers */,
+				88A3A796031D0FAB5D0817CC719CAE8E /* DTOpenAPIObject.h in Headers */,
+				2E92D64A58A6548D642A5AFB9E20F22E /* DTOpenKit.h in Headers */,
+				195DC3E5EDB4DD7D41DA9C22F351EDB1 /* IWDTPlatform.h in Headers */,
+				9FD26AB0E6CD4BD44DA0457147AE7906 /* IWQQFriendsPlatform.h in Headers */,
+				B6F5EF7DC52FCE2C36BB015DE4ABDFB9 /* IWQQShareApiHandle.h in Headers */,
+				0EB4CEB581BA18B2511ABE4170B02EB1 /* IWQQSharePlatform.h in Headers */,
+				597814A4987D04F87E792252B5185A4B /* IWQQZoneSharePlatform.h in Headers */,
+				FD43B3482C428A631224C28A265A7F95 /* IWShare.h in Headers */,
+				6D4F9520067A8FDB51D4F6FEEAAF2284 /* IWShareBasePlateform.h in Headers */,
+				FC855E1A1F8CED887E7D3FC3A4F78ECC /* IWShareBundle.h in Headers */,
+				F137E25985B60FA9B93506C233C94DD1 /* IWShareCoordinator.h in Headers */,
+				37767D132ACC0FF20868CD301F464348 /* IWShareManager.h in Headers */,
+				C3FD8AE63473C03C4014E54B1BE24C01 /* IWShareSDK-umbrella.h in Headers */,
+				A00CC875AC65A50CDB2D698A764CBF64 /* IWShareSDK.h in Headers */,
+				6715C45AB81FF3314E200D32F07E2F74 /* IWShareTool.h in Headers */,
+				B5C5DEF080DD4EDB7F6B192BF4E92A3C /* IWShareValue.h in Headers */,
+				99598E934A5D5EEC3FD60C897DFCE285 /* IWUICollectionViewCell.h in Headers */,
+				93FBAA20F5A3ADFD49977E8D64EE194D /* IWUIShareFooterView.h in Headers */,
+				CE614C1EB252C9455625422C6DC5EEC9 /* IWUIShareHeaderView.h in Headers */,
+				976E9D4803DB5C96893F652EC224FA5C /* IWUIShareView.h in Headers */,
+				4EEC793E2DED11978A4E09EAD63316AC /* IWWxFavoritePlatform.h in Headers */,
+				15A12A62264449D64978F0626ECCFEC7 /* IWWxPlatform.h in Headers */,
+				D0423C3EBB1750B0471F48EE8AA50AC9 /* IWWxSessionPlatform.h in Headers */,
+				3EFC9A449D37FD9E84AD8802F19C92CC /* IWWxShareApiHandler.h in Headers */,
+				683860D80C8FA29A334356B764F11DC5 /* IWWxTimelinePlatform.h in Headers */,
+				26CD4DD2314859F7EDCF6FF97643A28A /* QQApiInterface.h in Headers */,
+				93B2D34214DCA0E249FCA37A7DA1E2ED /* QQApiInterfaceObject.h in Headers */,
+				A8236DE756B6CC6F9AE54FDA7DD6CC8A /* sdkdef.h in Headers */,
+				4348A880FA04650BCC4F668782125FCE /* TencentOAuth.h in Headers */,
+				AE61BCA76034BAB988E576FFCF1AEAC3 /* TencentOpenApiUmbrellaHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5D697919ADAA2535F9B28BDCDF5171 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8C5A47235717FF235099433B989082 /* Pods-iOS SDK Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B3BB9D59D462361E75D2089CE535F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B5619D759986CE4E5428B1C8B62C54 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D254518DCFA2C780251D49435486B4D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486AE606A0469B64861723501B21279D /* Pods-iOS SDK DemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A207176D8CA14C2F7714029EDED2348A /* Pods-iOS SDK Demo-iOS SDK DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8536B00D2BEDE67FDE9B9F4AD3F74386 /* Build configuration list for PBXNativeTarget "Pods-iOS SDK Demo-iOS SDK DemoUITests" */;
+			buildPhases = (
+				B3B3BB9D59D462361E75D2089CE535F8 /* Headers */,
+				853FAA3F5B98738F71909E858383EC1A /* Sources */,
+				F5B71515566587690DE0E98072FC88E5 /* Frameworks */,
+				26D3A6759CF10F3E6F48183B1ACF9B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2197E75AAD96C5F0AE53C4EF02DF1AE2 /* PBXTargetDependency */,
+				0F6D5EFA417370D5EFDE2DB24210B727 /* PBXTargetDependency */,
+				95D68EFE1BE3EF90919F115522281250 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS SDK Demo-iOS SDK DemoUITests";
+			productName = "Pods-iOS SDK Demo-iOS SDK DemoUITests";
+			productReference = C8ACE8ED629443ADEC363EFFEF9E308F /* Pods_iOS_SDK_Demo_iOS_SDK_DemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3E8E29F646364C03A710F01DA056661 /* IWShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4E84557F8CB87E04E615F6739E1EC2 /* Build configuration list for PBXNativeTarget "IWShareSDK" */;
+			buildPhases = (
+				2FF10C077470F0095A610A9FD12D44B6 /* Headers */,
+				39105186AF7C0FBF6E62015D6B8EED4A /* Sources */,
+				932BFBF3C77492BD3742A5BF3594992C /* Frameworks */,
+				DD3B8BD44ED5A94AC0CD9DB4EF5502D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FF857CE068601D896295A4C69AFC6B7 /* PBXTargetDependency */,
+				CB13EB6CC760A6BBFCB8491811F0F66B /* PBXTargetDependency */,
+				609B7C4A54FD540AB3A12AD5C7CFEF3A /* PBXTargetDependency */,
+				2661D4733DFA10B0CF49CCD0743B7002 /* PBXTargetDependency */,
+			);
+			name = IWShareSDK;
+			productName = IWShareSDK;
+			productReference = DD273846F8E24EA776E23DA34EF06D68 /* IWShareSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A7487235AEE59B4070F62F59D99AE4 /* IWShareSDK-IWQQSharePlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A7F5B4099B13E74FDFB8CD2A9116A5 /* Build configuration list for PBXNativeTarget "IWShareSDK-IWQQSharePlatform" */;
+			buildPhases = (
+				9AF2EBEEB2D5D3B7F8D60806EDCEC599 /* Sources */,
+				68313190220695079FBB452890DEFEC9 /* Frameworks */,
+				2D2D523528DA2780E729B3003F680643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IWShareSDK-IWQQSharePlatform";
+			productName = "IWShareSDK-IWQQSharePlatform";
+			productReference = D9EE5713737AA31CCC6C3FB005C695F8 /* IWQQSharePlatform.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D8AAF0506F591B42912AF54CC80AC8B4 /* IWShareSDK-IWWXSharePlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93260269926D14A14AAE83D2C4724684 /* Build configuration list for PBXNativeTarget "IWShareSDK-IWWXSharePlatform" */;
+			buildPhases = (
+				13B6698653077E848C2B047B2E7A2002 /* Sources */,
+				CAC93500368F116A40C89C3435231922 /* Frameworks */,
+				B5F0C34BB0B2071A68C7124E96B80EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IWShareSDK-IWWXSharePlatform";
+			productName = "IWShareSDK-IWWXSharePlatform";
+			productReference = 39CA4BD0042C1D85BEC65DDB85E14331 /* IWWXSharePlatform.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DDB97A64EBFB4D7121394CB3CE9240C7 /* Pods-iOS SDK DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03520C98DDF71428D646C19708C701CA /* Build configuration list for PBXNativeTarget "Pods-iOS SDK DemoTests" */;
+			buildPhases = (
+				D254518DCFA2C780251D49435486B4D1 /* Headers */,
+				909241D29CCB0E25B764D4C2186FC6B3 /* Sources */,
+				AAC751E9D963F265D7A2131CB7369D8C /* Frameworks */,
+				7D1A88903C92F86002AE212D02AF2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236339A7BBAECB155D992A8B80234D96 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS SDK DemoTests";
+			productName = "Pods-iOS SDK DemoTests";
+			productReference = 965733E024382305B0B5764A869F31C1 /* Pods_iOS_SDK_DemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB49956E5848F4AEDF1DC48C886C706E /* IWShareSDK-IWDTPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1D30201E4DD975A813FA638A48698D /* Build configuration list for PBXNativeTarget "IWShareSDK-IWDTPlatform" */;
+			buildPhases = (
+				6BE15B372FCA5631783620C4D0BF32CA /* Sources */,
+				93ED83AA895DFFC7A1A52C7F2C9DA14A /* Frameworks */,
+				BB4116B724DB11F45E1D1249CE7B59AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IWShareSDK-IWDTPlatform";
+			productName = "IWShareSDK-IWDTPlatform";
+			productReference = C65BD52E0237A7FBD07C955C668E8B15 /* IWDTPlatform.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EE4BDC6EFEC8AC625965494543E0DD10 /* Pods-iOS SDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD03A2B7C0CFD208586CBE5DB6B8881 /* Build configuration list for PBXNativeTarget "Pods-iOS SDK Demo" */;
+			buildPhases = (
+				5A5D697919ADAA2535F9B28BDCDF5171 /* Headers */,
+				302B8532533D26DA47E32D4399DE64BA /* Sources */,
+				D9F0B1F16142B6BCDCB888974B4694EC /* Frameworks */,
+				DA848C4F41B19672000CA17DC63F0746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D6AA8125226B3E9322CB6B07C285F1 /* PBXTargetDependency */,
+				41F8E70CF1C5ADFC654190AD7DF1FC61 /* PBXTargetDependency */,
+				0166440C8C1A04B40C6B14B82CE45A19 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS SDK Demo";
+			productName = "Pods-iOS SDK Demo";
+			productReference = 723B670A581EA4DAA08E71D689F78BCB /* Pods_iOS_SDK_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7EA51720C145F5F022C02DCE011EBE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E8E29F646364C03A710F01DA056661 /* IWShareSDK */,
+				EB49956E5848F4AEDF1DC48C886C706E /* IWShareSDK-IWDTPlatform */,
+				C2A7487235AEE59B4070F62F59D99AE4 /* IWShareSDK-IWQQSharePlatform */,
+				D8AAF0506F591B42912AF54CC80AC8B4 /* IWShareSDK-IWWXSharePlatform */,
+				638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */,
+				EE4BDC6EFEC8AC625965494543E0DD10 /* Pods-iOS SDK Demo */,
+				A207176D8CA14C2F7714029EDED2348A /* Pods-iOS SDK Demo-iOS SDK DemoUITests */,
+				DDB97A64EBFB4D7121394CB3CE9240C7 /* Pods-iOS SDK DemoTests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D3A6759CF10F3E6F48183B1ACF9B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2D523528DA2780E729B3003F680643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A07F86FA32BB64D392E460AB30D77C6 /* QQImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1A88903C92F86002AE212D02AF2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F0C34BB0B2071A68C7124E96B80EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158E0E89B9BFB15FAC8C518E22C5E18B /* WXImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4116B724DB11F45E1D1249CE7B59AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5A341F640B6F8D15CEB3508B5DB9F6 /* DTImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA848C4F41B19672000CA17DC63F0746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3B8BD44ED5A94AC0CD9DB4EF5502D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B6698653077E848C2B047B2E7A2002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302B8532533D26DA47E32D4399DE64BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E522848147B04D152D20BA85DCA894 /* Pods-iOS SDK Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39105186AF7C0FBF6E62015D6B8EED4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EB04E14C26874C984ED74F76CA1601 /* IWDTPlatform.m in Sources */,
+				DBD8624221137BE50BB536172F20F9E9 /* IWQQFriendsPlatform.m in Sources */,
+				38B5E89BFD071E1C542A5DE8F1938E55 /* IWQQShareApiHandle.m in Sources */,
+				6746E2B232A238BBC9F09E974AAF106A /* IWQQSharePlatform.m in Sources */,
+				AC8BE0A0E8BFB038BCCDF6B1D3D1CC05 /* IWQQZoneSharePlatform.m in Sources */,
+				4E3EF79A0F95594707C081597CE35A2B /* IWShare.m in Sources */,
+				831DAD0DFDFCC2EA30F5F9CDF6F87D12 /* IWShareBasePlateform.m in Sources */,
+				C3AE16212D9986A0B7D809C6C848CB01 /* IWShareBundle.m in Sources */,
+				6B7B1F3FE341F2901A454471EE44125A /* IWShareCoordinator.m in Sources */,
+				FD2C47AC3487F2E728F9E074AB757CCC /* IWShareManager.m in Sources */,
+				DA3EABA53B4FCE8A1714338F16E8F1FD /* IWShareSDK-dummy.m in Sources */,
+				5C88AB52A5666D4BC62E62AC9B677461 /* IWShareTool.m in Sources */,
+				82FE3A56C20C9368656EF2A4368A258F /* IWUICollectionViewCell.m in Sources */,
+				0C575665393C42A4EBAF4CA4C0A526D4 /* IWUIShareFooterView.m in Sources */,
+				0289C7B68827BCD72F18295386D79007 /* IWUIShareHeaderView.m in Sources */,
+				59764B3F77693513EDD2586F173ABB60 /* IWUIShareView.m in Sources */,
+				893FAE40F77D5CBC941B693170D2416A /* IWWxFavoritePlatform.m in Sources */,
+				104D7B1B987568E2D0EEFCFD131F5FB4 /* IWWxPlatform.m in Sources */,
+				ADF4DC6C70B7D43B2929AAAD8B09C1CE /* IWWxSessionPlatform.m in Sources */,
+				F494C44556B7662D56CFCCF296FF27EB /* IWWxShareApiHandler.m in Sources */,
+				451B11D126A0760C63302273024FE909 /* IWWxTimelinePlatform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE15B372FCA5631783620C4D0BF32CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853FAA3F5B98738F71909E858383EC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A4F54DF2FAB31775C9E330F1FE621 /* Pods-iOS SDK Demo-iOS SDK DemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909241D29CCB0E25B764D4C2186FC6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0680B3DF300181824DE3898AC8163961 /* Pods-iOS SDK DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF2EBEEB2D5D3B7F8D60806EDCEC599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0166440C8C1A04B40C6B14B82CE45A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = F920EDD41FCDAFD836A7E0EEB6EF1A49 /* PBXContainerItemProxy */;
+		};
+		0F6D5EFA417370D5EFDE2DB24210B727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServer;
+			target = 638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */;
+			targetProxy = EF1671A3EF339E70C7303FE10E330C3A /* PBXContainerItemProxy */;
+		};
+		2197E75AAD96C5F0AE53C4EF02DF1AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IWShareSDK;
+			target = B3E8E29F646364C03A710F01DA056661 /* IWShareSDK */;
+			targetProxy = F2557857F10FDB6822A3F4A8104341FA /* PBXContainerItemProxy */;
+		};
+		236339A7BBAECB155D992A8B80234D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOS SDK Demo";
+			target = EE4BDC6EFEC8AC625965494543E0DD10 /* Pods-iOS SDK Demo */;
+			targetProxy = 630EBF252F35DD591F52C64442B1123B /* PBXContainerItemProxy */;
+		};
+		2661D4733DFA10B0CF49CCD0743B7002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = C2ED46248AE98A8247D8336CFC91D3D5 /* PBXContainerItemProxy */;
+		};
+		41F8E70CF1C5ADFC654190AD7DF1FC61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServer;
+			target = 638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */;
+			targetProxy = F4F5E53C577548537A0AB4692FE168BD /* PBXContainerItemProxy */;
+		};
+		609B7C4A54FD540AB3A12AD5C7CFEF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IWShareSDK-IWWXSharePlatform";
+			target = D8AAF0506F591B42912AF54CC80AC8B4 /* IWShareSDK-IWWXSharePlatform */;
+			targetProxy = BB44F27E80434E9234DFBBC545D39181 /* PBXContainerItemProxy */;
+		};
+		8FF857CE068601D896295A4C69AFC6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IWShareSDK-IWDTPlatform";
+			target = EB49956E5848F4AEDF1DC48C886C706E /* IWShareSDK-IWDTPlatform */;
+			targetProxy = 0B4878CB85DFFACD7EF1C71D37D0D278 /* PBXContainerItemProxy */;
+		};
+		95D68EFE1BE3EF90919F115522281250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 17C9A3BE9D8C1971957FD1BC9C5A71EE /* PBXContainerItemProxy */;
+		};
+		CB13EB6CC760A6BBFCB8491811F0F66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IWShareSDK-IWQQSharePlatform";
+			target = C2A7487235AEE59B4070F62F59D99AE4 /* IWShareSDK-IWQQSharePlatform */;
+			targetProxy = 98B26366DBAD64C37661FCC68F165962 /* PBXContainerItemProxy */;
+		};
+		D1D6AA8125226B3E9322CB6B07C285F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IWShareSDK;
+			target = B3E8E29F646364C03A710F01DA056661 /* IWShareSDK */;
+			targetProxy = 394E7995376E9473799F782CB0AD8CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C82BAB0CC34147D996903A7BF4EE7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IWShareSDK/IWShareSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/IWShareSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/IWShareSDK/IWShareSDK.modulemap";
+				PRODUCT_MODULE_NAME = IWShareSDK;
+				PRODUCT_NAME = IWShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		287B9B5ACB8FA5F73DAF40D97C7D4136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B11F7C105B19C5E440E281F8A959F4 /* Pods-iOS SDK Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK Demo/Pods-iOS SDK Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK Demo/Pods-iOS SDK Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DA1595065ADCC2BB5DFF42B76DBCA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWWXSharePlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWWXSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		38BDB2A0648B73F9516A522649A43160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E96389F6105ABDAE2B144EDFE31B6B3 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56414A5AEFAA5B31D1689CC67682D415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2DECB390DD91B8AF32D9CE55417F61 /* Pods-iOS SDK DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK DemoTests/Pods-iOS SDK DemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK DemoTests/Pods-iOS SDK DemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C923A0E50BFCED7DFB9E2B4CA0478A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWQQSharePlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWQQSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6730493796C72F035E1A2AFCE52BB49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8FDAEDB3103E76F7081267E848C3C3 /* LookinServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A5F52B988F1EDAF0A4DAD6DC07F02D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IWShareSDK/IWShareSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/IWShareSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/IWShareSDK/IWShareSDK.modulemap";
+				PRODUCT_MODULE_NAME = IWShareSDK;
+				PRODUCT_NAME = IWShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F885F052E906E876DDD06206091F29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E34D9135E2FC21FD88B0DFFC975DDF /* LookinServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8056AC4BD3CD883AF73595CF06F21A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3390517F8176D55929D4979D75769CD7 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK Demo-iOS SDK DemoUITests/Pods-iOS SDK Demo-iOS SDK DemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK Demo-iOS SDK DemoUITests/Pods-iOS SDK Demo-iOS SDK DemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		843AA7420443FBAA94F6F352B47C34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3E892ABB5BB62D837BCF9912860819 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A62DFD2CE586A51842684B9081D41AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWWXSharePlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWWXSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A74F071B80A911F6D7AE262A4AC8491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B323630D4EB61579717A86107299DC30 /* Pods-iOS SDK DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK DemoTests/Pods-iOS SDK DemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK DemoTests/Pods-iOS SDK DemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A88DF37E750BD1B208F4805CA643FD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39A27FEAF25FD83DF94F5570BB64689 /* Pods-iOS SDK Demo-iOS SDK DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK Demo-iOS SDK DemoUITests/Pods-iOS SDK Demo-iOS SDK DemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK Demo-iOS SDK DemoUITests/Pods-iOS SDK Demo-iOS SDK DemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7D6DA4E9E5A08E9D14C2B0D7CC46E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWDTPlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWDTPlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E2C3013829AEA70184FDE1A0A76C3377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA001F4C410DF425A9A05C31D70239B /* Pods-iOS SDK Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS SDK Demo/Pods-iOS SDK Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS SDK Demo/Pods-iOS SDK Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7F292A0A7B3F39E531AD2BB400E534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947C1E953B28F542EE0DA1F3845ECD7D /* IWShareSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWQQSharePlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWQQSharePlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E870160D0A48556ED5DB4416CFC23FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AE845E25073B9C9835F63D37315266 /* IWShareSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IWShareSDK";
+				IBSC_MODULE = IWShareSDK;
+				INFOPLIST_FILE = "Target Support Files/IWShareSDK/ResourceBundle-IWDTPlatform-IWShareSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IWDTPlatform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03520C98DDF71428D646C19708C701CA /* Build configuration list for PBXNativeTarget "Pods-iOS SDK DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56414A5AEFAA5B31D1689CC67682D415 /* Debug */,
+				A74F071B80A911F6D7AE262A4AC8491E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF5FCB75AA399DC6104AFA344B74298 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AA7420443FBAA94F6F352B47C34FC /* Debug */,
+				38BDB2A0648B73F9516A522649A43160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1D30201E4DD975A813FA638A48698D /* Build configuration list for PBXNativeTarget "IWShareSDK-IWDTPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D6DA4E9E5A08E9D14C2B0D7CC46E67 /* Debug */,
+				E870160D0A48556ED5DB4416CFC23FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE83670ABC31CDD77B49DA732104E8 /* Build configuration list for PBXAggregateTarget "LookinServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6730493796C72F035E1A2AFCE52BB49C /* Debug */,
+				7F885F052E906E876DDD06206091F29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8536B00D2BEDE67FDE9B9F4AD3F74386 /* Build configuration list for PBXNativeTarget "Pods-iOS SDK Demo-iOS SDK DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88DF37E750BD1B208F4805CA643FD38 /* Debug */,
+				8056AC4BD3CD883AF73595CF06F21A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93260269926D14A14AAE83D2C4724684 /* Build configuration list for PBXNativeTarget "IWShareSDK-IWWXSharePlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA1595065ADCC2BB5DFF42B76DBCA2D /* Debug */,
+				A62DFD2CE586A51842684B9081D41AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A7F5B4099B13E74FDFB8CD2A9116A5 /* Build configuration list for PBXNativeTarget "IWShareSDK-IWQQSharePlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F292A0A7B3F39E531AD2BB400E534D /* Debug */,
+				5C923A0E50BFCED7DFB9E2B4CA0478A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4E84557F8CB87E04E615F6739E1EC2 /* Build configuration list for PBXNativeTarget "IWShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C82BAB0CC34147D996903A7BF4EE7A7 /* Debug */,
+				7A5F52B988F1EDAF0A4DAD6DC07F02D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD03A2B7C0CFD208586CBE5DB6B8881 /* Build configuration list for PBXNativeTarget "Pods-iOS SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3013829AEA70184FDE1A0A76C3377 /* Debug */,
+				287B9B5ACB8FA5F73DAF40D97C7D4136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

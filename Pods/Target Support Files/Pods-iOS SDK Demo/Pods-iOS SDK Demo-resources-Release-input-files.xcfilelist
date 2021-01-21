@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-iOS SDK Demo/Pods-iOS SDK Demo-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/IWShareSDK/IWDTPlatform.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IWShareSDK/IWQQSharePlatform.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IWShareSDK/IWWXSharePlatform.bundle
